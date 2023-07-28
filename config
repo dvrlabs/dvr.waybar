@@ -41,7 +41,7 @@
 	},
 
 	"pulseaudio": {
-		"format":"AUD {volume:2}%",
+		"format":"VOL {volume:2}%",
 		"format-muted": "MUTE",
 		"format-icons": {
 			"headphones": "",
@@ -53,7 +53,7 @@
 	},
 	"memory": {
 		"interval": 5,
-		"format": "MEM {}%"
+		"format": "RAM {}%"
 	},
 	"cpu": {
 		"interval": 5,
@@ -61,7 +61,7 @@
 	},
 	"disk": {
 		"interval": 5,
-		"format": "DSK {percentage_used:2}%",
+		"format": "SSD {percentage_used:2}%",
 		"path": "/"
 	},
 	"tray": {

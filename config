@@ -12,13 +12,13 @@
 		"clock#1",
 		"clock#2",
 		"clock#3",
+		"custom/weather",
 	],
 	"modules-right": [
 		"pulseaudio",
 		"memory",
 		"cpu",
 		"disk",
-		"custom/weather",
 		"tray"
 	],
 

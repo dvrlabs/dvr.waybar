@@ -38,6 +38,10 @@ window#waybar {
 	padding: 0 3px;
 }
 
+#custom-weather {
+	background: #1a1a1a;
+}
+
 #pulseaudio {
 	color: #268bd2;
 }

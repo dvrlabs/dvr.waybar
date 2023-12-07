@@ -16,6 +16,7 @@
 	],
 	"modules-right": [
 		"custom/mute",
+		"custom/audiosource",
 		"pulseaudio",
 		"memory",
 		"cpu",
@@ -88,6 +89,10 @@
 	},
 	"custom/mute": {
 	    "exec": "/home/daniel/.config/waybar/check_mute.sh",
-	    "interval": 5
+	    "interval": 1
+	},
+	"custom/audiosource": {
+	    "exec": "/home/daniel/.config/waybar/check_sink.sh",
+	    "interval": 1
 	}
 }

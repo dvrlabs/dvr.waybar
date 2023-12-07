@@ -6,6 +6,6 @@ MUTE_STATUS=$(pactl list sources | awk -v name="$MIC_NAME" '/Name:/{flag=0} $0 ~
 if [ "$MUTE_STATUS" = 'yes' ]; then
     echo "🔇"
 else
-    echo "🔊"
+    echo "🎤"
 fi
 

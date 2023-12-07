@@ -15,6 +15,7 @@
 		"custom/weather",
 	],
 	"modules-right": [
+		"custom/mute",
 		"pulseaudio",
 		"memory",
 		"cpu",
@@ -84,5 +85,9 @@
 	    "format": "{}",
 	    "exec": "curl \"https://wttr.in/?format=%c%t\"",
 	    "interval": 6000
+	},
+	"custom/mute": {
+	    "exec": "/home/daniel/.config/waybar/check_mute.sh",
+	    "interval": 5
 	}
 }

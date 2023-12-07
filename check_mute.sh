@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 MIC_NAME='alsa_input.usb-GeneralPlus_USB_Audio_Device-00.mono-fallback'
 
 # Check mute status
